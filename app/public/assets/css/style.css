@@ -1,11 +1,35 @@
 
 body {
-   
-    background-size: 500px;
-    background-color: red;
+    background-color: black;
 }
 
 .jumbotron {
-    background-image: "app/public/assets/images/rocky-horror-picture-logo.jpg";
+    background-image: url("https://raw.githubusercontent.com/Samareimorgan/friend-finder/master/app/public/assets/images/rocky-horror-picture-logo.jpg");
+    background-repeat: no-repeat;
+    height: 200px;
+    background-color: black;
+    border: 2px solid white;
+    
 }
+
+.display-4 {
+    font-family: 'Caveat', cursive;
+    font-size: 75px;
+    color: darkred;
+    text-align: center;
+    
+}
+#surveyBtn {
+    padding: 15px;
+}
+
+#mainDiv {
+    background-image: url("https://media.giphy.com/media/cX6O4hcd1xjfG/giphy.gif");
+    height: 450px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+
+
 
