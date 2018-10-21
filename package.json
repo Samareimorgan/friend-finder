@@ -1,0 +1,28 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "This app requests information from the user, then compares it with other user data to find a compatible match between two users",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samareimorgan/friend-finder.git"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Samarei Morgan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Samareimorgan/friend-finder/issues"
+  },
+  "homepage": "https://github.com/Samareimorgan/friend-finder#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
+}
