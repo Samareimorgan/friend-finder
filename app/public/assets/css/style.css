@@ -1,0 +1,11 @@
+
+body {
+   
+    background-size: 500px;
+    background-color: red;
+}
+
+.jumbotron {
+    background-image: "app/public/assets/images/rocky-horror-picture-logo.jpg";
+}
+
