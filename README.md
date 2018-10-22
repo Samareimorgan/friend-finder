@@ -6,20 +6,29 @@ The purpose of the application is to have the user take the survey, answer the q
 
 ## Client-Side
 ### Home Page
-![alt text](https://raw.githubusercontent.com/Samareimorgan/nodebamazon/master/images/customerjs%201.JPG "bamazoncustomer.js product list")
+![alt text](https://raw.githubusercontent.com/Samareimorgan/friend-finder/master/app/public/assets/images/RH_home.JPG "Rocky Horror Match  Home Page")
+The Home page utilizes Bootstrap and a gif to add pizazz. 
 ### Survey Page
-![alt text](https://raw.githubusercontent.com/Samareimorgan/nodebamazon/master/images/customerjs%201.JPG "bamazoncustomer.js product list")
+![alt text](https://raw.githubusercontent.com/Samareimorgan/friend-finder/master/app/public/assets/images/RH_partialSurvey.JPG "Rocky Horror Match partial Survey")
+The Survey Page also uses Bootstrap to create the form. 
+
 ### Modal
-![alt text](https://raw.githubusercontent.com/Samareimorgan/nodebamazon/master/images/customerjs%201.JPG "bamazoncustomer.js product list")
+![alt text](https://raw.githubusercontent.com/Samareimorgan/friend-finder/master/app/public/assets/images/RH_Modal.JPG "Rocky Horror Best Match Result Modal")
+Upon submission of the form, a Modal pops up with the best match results.
+
 ### API Links
-![alt text](https://raw.githubusercontent.com/Samareimorgan/nodebamazon/master/images/customerjs%201.JPG "bamazoncustomer.js product list")
-![alt text](https://raw.githubusercontent.com/Samareimorgan/nodebamazon/master/images/customerjs%201.JPG "bamazoncustomer.js product list")
+The API links on the bottom of both the Home and Survey page show the Cast Data and the new Fan data that users submit on the survey page.   It is parsed into JSON like the below example.
+
+![alt text](https://raw.githubusercontent.com/Samareimorgan/friend-finder/master/app/public/assets/images/api_newFan_link.JPG "Rocky Horror API Link")
+
 
 ## Server-Side
 ### About
 With the server - side it was essential to add console.logs in order to ensure the application was running correctly.  
 ### Command Line Console Logs
-![alt text](https://raw.githubusercontent.com/Samareimorgan/nodebamazon/master/images/customerjs%201.JPG "bamazoncustomer.js product list")
+![alt text](https://raw.githubusercontent.com/Samareimorgan/friend-finder/master/app/public/assets/images/console%20log%20terminal%201.JPG "Rocky Horror CLI Console Logs")
+
+The console logs indicated the new Fan data and then also showed as the application iterated through the cast members answers.  The total number is the difference between the cast member and the new Fan submitted answers.  The cast member that had the lowest total is the person that pops up on the modal on the client-side. 
 
 ## Install Application on Local Machine
 #### Dependencies: express & path modules
