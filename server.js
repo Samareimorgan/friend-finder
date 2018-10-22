@@ -9,12 +9,14 @@ var app = express();
 
 var PORT = process.env.PORT || 8080;
 
-//Create App Routes
-require("./routes/apiRoutes")(app);
-require("./routes/htmlRoutes")(app);
+//Sets express up to Parse
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
-//Express to look in Public for all static assets
-app.use(express.static("/public"));
+//Create App Routes
+require("./app/routes/apiRoutes")(app);
+require("./app/routes/htmlRoutes")(app);
+
 
 
 //Create Port listener 

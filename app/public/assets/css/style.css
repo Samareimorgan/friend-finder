@@ -1,6 +1,10 @@
 
 body {
     background-color: black;
+    color: hsla(1, 86%, 46%, 0.94);
+    font-size: 25px;
+    font-style: bold;
+    font-family: 'Caveat', cursive;
 }
 
 .jumbotron {
@@ -21,6 +25,7 @@ body {
 }
 #surveyBtn {
     padding: 15px;
+    font-size: 30px;
 }
 
 #mainDiv {
@@ -31,5 +36,12 @@ body {
 
 }
 
+footer {
+    color: darkslategray;
+    font-size: 20px; 
+}
 
+a {
+    color: darkslategrey;
+}
 

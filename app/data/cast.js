@@ -1,7 +1,7 @@
 
 //Variable to hold the cast array data
 
-var cast = [
+var castArray = [
     {
         name: "Rocky",
         favorite_color: "gold",
@@ -22,7 +22,7 @@ var cast = [
 
     {
         name: "Magenta",
-        favorite_color: "magenta",
+        favColor: "magenta",
         quote: "I'm lucky, he's lucky, we're all lucky!",
         image: "../public/assets/images/magenta.jpg",
         answers: [

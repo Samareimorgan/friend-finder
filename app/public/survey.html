@@ -10,117 +10,143 @@
 </head>
 <body>
     <div class = "container-fluid">
+      <div class = "row"></div>
+        <div class = "col-2"></div>
+        <div class = "col-8">
             <form>
                 <div class="form-group">
-                    <label for="name">Full Name</label>
-                    <input type="text" class="form-control" id="fullName" placeholder="Doctor Scott">
+                    <label for="name">Name (Required)</label>
+                    <input type="text" class="form-control" id="name" placeholder="Doctor Scott">
                     </div>
                     <div class="form-group">
-                      <label for="Email address">Email address</label>
-                      <input type="email" class="form-control" id="emailAddress" placeholder="name@example.com">
+                        <label for="color">Favorite Color</label>
+                        <input type="text" class="form-control" id="favColor" placeholder="Grey">
                     </div>
                     <div class="form-group">
-                      <label for="question1">I am most comfortable at home when I wear drag.</label>
-                      <select class="form-control" id="question1">
-                        <option>1- Not like me at all</option>
-                        <option>2 - Sort of like me </option>
-                        <option>3 - Undecided</option>
-                        <option>4 - Somewhat like me</option>                     
-                        <option>5 - Most like me</option>
+                      <label for="quote">Favorite Movie Quote </label>
+                      <input type="text" class="form-control" id="favQuote" placeholder="By George, I think You've Got It">
+                    </div>
+                    <div class="form-group">
+                        <label for="picture">Upload Picture (Required)</label>
+                        <input type="text" class="form-control" id="fanPicture" placeholder="url address here">
+                    </div>
+
+                    <div class="form-group">
+                      <label for="question1">1. I am most comfortable at home when I wear drag.</label>
+                      <select class="form-control selectChoice" id="question1">
+                          <option value = ""></option>
+                          <option value = "1">1- Strongly Disagree</option>
+                          <option value = "2">2- Disagree</option>
+                          <option value = "3">3- Neutral</option>
+                          <option value = "4">4- Agree</option>                  
+                          <option value = "5">5- Strongly Agree</option>
                       </select>
                     </div>
                     <div class="form-group">
-                      <label for="question2"></label>
-                      <select class="form-control" id="question2">
-                        <option>1- Not like me at all</option>
-                        <option>2 - Sort of like me </option>
-                        <option>3 - Undecided</option>
-                        <option>4 - Somewhat like me</option>                     
-                        <option>5 - Most like me</option>
+                      <label for="question2">2. Incest does not go against my moral belief system.</label>
+                      <select class="form-control selectChoice" id="question2">
+                          <option value = ""></option>
+                          <option value = "1">1- Strongly Disagree</option>
+                          <option value = "2">2- Disagree</option>
+                          <option value = "3">3- Neutral</option>
+                          <option value = "4">4- Agree</option>                  
+                          <option value = "5">5- Strongly Agree</option>
                       </select>
                     </div>
                     <div class="form-group">
-                      <label for="question3">I prefer to keep my ex-lovers in the freezer. </label>
-                      <select class="form-control" id="question3">
-                        <option>1- Not like me at all</option>
-                        <option>2 - Sort of like me </option>
-                        <option>3 - Undecided</option>
-                        <option>4 - Somewhat like me</option>                     
-                        <option>5 - Most like me</option>
+                      <label for="question3">3. I prefer to keep my ex-lovers in the freezer. </label>
+                      <select class="form-control selectChoice" id="question3">
+                          <option value = ""></option>
+                          <option value = "1">1- Strongly Disagree</option>
+                          <option value = "2">2- Disagree</option>
+                          <option value = "3">3- Neutral</option>
+                          <option value = "4">4- Agree</option>                  
+                          <option value = "5">5- Strongly Agree</option>
                       </select>
                     </div>
                     <div class="form-group">
-                      <label for="question4">Whenever new people arrive to my house, I like to break out into song.</label>
-                      <select class="form-control" id="question4">
-                        <option>1- Not like me at all</option>
-                        <option>2 - Sort of like me </option>
-                        <option>3 - Undecided</option>
-                        <option>4 - Somewhat like me</option>                     
-                        <option>5 - Most like me</option>
+                      <label for="question4">4. Whenever new people arrive to my house, I like to break out into song.</label>
+                      <select class="form-control selectChoice" id="question4">
+                          <option value = ""></option>
+                          <option value = "1">1- Strongly Disagree</option>
+                          <option value = "2">2- Disagree</option>
+                          <option value = "3">3- Neutral</option>
+                          <option value = "4">4- Agree</option>                  
+                          <option value = "5">5- Strongly Agree</option>
                       </select>
                     </div>
                     <div class="form-group">
-                      <label for="question5">I am most concerned with how my body looks in a speedo.</label>
-                      <select class="form-control" id="question5">
-                        <option>1- Not like me at all</option>
-                        <option>2 - Sort of like me </option>
-                        <option>3 - Undecided</option>
-                        <option>4 - Somewhat like me</option>                     
-                        <option>5 - Most like me</option>
+                      <label for="question5">5. I am most concerned with how my body looks in a speedo.</label>
+                      <select class="form-control selectChoice" id="question5">
+                          <option value = ""></option>
+                          <option value = "1">1- Strongly Disagree</option>
+                          <option value = "2">2- Disagree</option>
+                          <option value = "3">3- Neutral</option>
+                          <option value = "4">4- Agree</option>                  
+                          <option value = "5">5- Strongly Agree</option>
                       </select>
                     </div>
                     <div class="form-group">
-                      <label for="question6">I believe that I am an alien with a mission from my alien world.</label>
-                      <select class="form-control" id="question6">
-                        <option>1- Not like me at all</option>
-                        <option>2 - Sort of like me </option>
-                        <option>3 - Undecided</option>
-                        <option>4 - Somewhat like me</option>                     
-                        <option>5 - Most like me</option>
+                      <label for="question6">6. I believe that I am an alien with a mission from my alien world.</label>
+                      <select class="form-control selectChoice" id="question6">
+                          <option value = ""></option>
+                          <option value = "1">1- Strongly Disagree</option>
+                          <option value = "2">2- Disagree</option>
+                          <option value = "3">3- Neutral</option>
+                          <option value = "4">4- Agree</option>                  
+                          <option value = "5">5- Strongly Agree</option>
                       </select>
                     </div>
                     <div class="form-group">
-                      <label for="question7">I feel that my partner could spice things up in the bedroom.</label>
-                      <select class="form-control" id="question7">
-                        <option>1- Not like me at all</option>
-                        <option>2 - Sort of like me </option>
-                        <option>3 - Undecided</option>
-                        <option>4 - Somewhat like me</option>                     
-                        <option>5 - Most like me</option>
+                      <label for="question7">7. I feel that my partner could spice things up in the bedroom.</label>
+                      <select class="form-control selectChoice" id="question7">
+                          <option value = ""></option>
+                          <option value = "1">1- Strongly Disagree</option>
+                          <option value = "2">2- Disagree</option>
+                          <option value = "3">3- Neutral</option>
+                          <option value = "4">4- Agree</option>                  
+                          <option value = "5">5- Strongly Agree</option>
                       </select>
                     </div>
                     <div class="form-group">
-                      <label for="question8">I believe that wearing glasses makes me look more attractive.</label>
-                      <select class="form-control" id="question8">
-                        <option>1- Not like me at all</option>
-                        <option>2 - Sort of like me </option>
-                        <option>3 - Undecided</option>
-                        <option>4 - Somewhat like me</option>                     
-                        <option>5 - Most like me</option>
+                      <label for="question8">8. I believe that wearing glasses makes me look more attractive.</label>
+                      <select class="form-control selectChoice" id="question8">
+                          <option value = ""></option>
+                          <option value = "1">1- Strongly Disagree</option>
+                          <option value = "2">2- Disagree</option>
+                          <option value = "3">3- Neutral</option>
+                          <option value = "4">4- Agree</option>                  
+                          <option value = "5">5- Strongly Agree</option>
                       </select>
                     </div>
                     <div class="form-group">
-                      <label for="question9">Dancing tends to help me solve intergalactic problems.</label>
-                      <select class="form-control" id="question9">
-                        <option>1- Not like me at all</option>
-                        <option>2 - Sort of like me </option>
-                        <option>3 - Undecided</option>
-                        <option>4 - Somewhat like me</option>                     
-                        <option>5 - Most like me</option>
+                      <label for="question9">9. Dancing tends to help me solve intergalactic problems.</label>
+                      <select class="form-control selectChoice" id="question9">
+                          <option value = ""></option>
+                          <option value = "1">1- Strongly Disagree</option>
+                          <option value = "2">2- Disagree</option>
+                          <option value = "3">3- Neutral</option>
+                          <option value = "4">4- Agree</option>                  
+                          <option value = "5">5- Strongly Agree</option>
                       </select>
                     </div>
                     <div class="form-group">
-                      <label for="question10">I have a wide variety of friends that are completely different than me.</label>
-                      <select class="form-control" id="question10">
-                        <option>1- Not like me at all</option>
-                        <option>2 - Sort of like me </option>
-                        <option>3 - Undecided</option>
-                        <option>4 - Somewhat like me</option>                     
-                        <option>5 - Most like me</option>
+                      <label for="question10">10.I have a wide variety of friends that are completely different than me.</label>
+                      <select class="form-control selectChoice" id="question10">
+                        <option value = ""></option>
+                        <option value = "1">1- Strongly Disagree</option>
+                        <option value = "2">2- Disagree</option>
+                        <option value = "3">3- Neutral</option>
+                        <option value = "4">4- Agree</option>                  
+                        <option value = "5">5- Strongly Agree</option>
                       </select>
                     </div>
+                    <button type="submit" class="btn btn-primary" id="submitFan">Submit Survey</button>
             
                   </form>
+              </div>
+            <div class = "col-2"></div>
+     </div>
     </div>
     
 
