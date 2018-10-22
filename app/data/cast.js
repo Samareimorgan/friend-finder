@@ -6,7 +6,7 @@ var castArray = [
         name: "Rocky",
         favorite_color: "gold",
         quote: "...[Grunts]...",
-        image: "../public/assets/images/rocky.jpg",
+        image: "https://raw.githubusercontent.com/Samareimorgan/friend-finder/master/app/public/assets/images/rocky.jpg",
         answers: [
             1,
             2,
@@ -24,7 +24,7 @@ var castArray = [
         name: "Magenta",
         favColor: "magenta",
         quote: "I'm lucky, he's lucky, we're all lucky!",
-        image: "../public/assets/images/magenta.jpg",
+        image: "https://raw.githubusercontent.com/Samareimorgan/friend-finder/master/app/public/assets/images/magenta.jpg",
         answers: [
             2,
             4,
@@ -42,7 +42,7 @@ var castArray = [
         name: "Brad Majors",
         favorite_color: "gray",
         quote: "I'm glad we caught you at home. Could we use your phone? We're both in a bit of a hurry. We'll just say where were are and go back to the car. We don't want to be any worry.",
-        image: "../public/assets/images/Brad.jpg",
+        image: "https://raw.githubusercontent.com/Samareimorgan/friend-finder/master/app/public/assets/images/Brad.jpg",
         answers: [
             2,
             1,
@@ -61,7 +61,7 @@ var castArray = [
         name: "Frank N Furter",
         favorite_color: "black",
         quote: "I'm just a sweet transvestite, from Transsexual Transylvania.",
-        image:"../public/assets/images/FrankNFurter.jpg",
+        image:"https://raw.githubusercontent.com/Samareimorgan/friend-finder/master/app/public/assets/images/FrankNFurter.jpg",
         answers:[
             5,
             4,
@@ -80,7 +80,7 @@ var castArray = [
         name: "Janet Weiss",
         favorite_color: "white",
         quote: "If only we were amongst friends... or sane persons!",
-        image:"../public/assets/images/Janet.jpg",
+        image:"https://raw.githubusercontent.com/Samareimorgan/friend-finder/master/app/public/assets/images/Janet.jpg",
         answers: [
             3,
             1,
@@ -100,7 +100,7 @@ var castArray = [
         name: "Columbia",
         favorite_color:"orange",
         quote: "Oh, slowly, slowly! It's too nice a job to rush.",
-        image:"../public/assets/images/Columbia.jpg",
+        image:"https://raw.githubusercontent.com/Samareimorgan/friend-finder/master/app/public/assets/images/Columbia.jpg",
         answers: [
             3,
             4,
@@ -119,7 +119,7 @@ var castArray = [
         name: "Riff Raff",
         favorite_color: "black",
         quote: "You've arrived on a rather special night. It's one of the master's affairs.",
-        image: "../public/assets/images/riff raff.jpg",
+        image: "https://raw.githubusercontent.com/Samareimorgan/friend-finder/master/app/public/assets/images/riff%20raff.jpg",
         answers: 
         [
             1,

@@ -19,26 +19,37 @@ $(document).ready(function() {
         if(validateForm()) {
             var newFanData = {
 
-                name: $("#name").val().trim(),
-                favColor:$("favColor").val().trim(),
-                quote: $("favQuote").val().trim(),
-                image: $("fanPicture").val().trim(),
+                name: $("#name").val(),
+                favColor:$("#favColor").val(),
+                quote: $("#favQuote").val(),
+                image: $("#fanPicture").val(),
                 answers: 
                 [
-                $("question1").val(),
-                $("question2").val(),
-                $("question3").val(),
-                $("question4").val(),
-                $("question5").val(),
-                $("question6").val(),
-                $("question7").val(),
-                $("question8").val(),
-                $("question9").val(),
-                $("question10").val(),
+                $("#question1").val(),
+                $("#question2").val(),
+                $("#question3").val(),
+                $("#question4").val(),
+                $("#question5").val(),
+                $("#question6").val(),
+                $("#question7").val(),
+                $("#question8").val(),
+                $("#question9").val(),
+                $("#question10").val(),
 
                 ]
             }
         }
+        console.log(newFanData);
+        //Hold the current website
+        var currentURL = window.location.origin;
+
+        //Post Data to the API website
+        $.post(currentURL +"/api/newFan", newFanData, function(data){
+            $("#matchName").text(data.name);
+            $("#matchPhoto").attr("src", data.image);
+            $("#matchModal").modal("toggle");
+        
+        })
     })
-    console.log(newFanData);
+    
 })

@@ -148,12 +148,41 @@
             <div class = "col-2"></div>
      </div>
     </div>
-    
+   <footer class="footer">
+            <div class="container">
+              <p><a href="/api/cast">API Cast Link</a> | <a href="/api/newFan">API New Fan List</a> | <a href="https://github.com/Samareimorgan/friend-finder">Git Hub Link</a> 
+            </div>
+    </footer>
+
+
+    <!-- Modal HTML-->
+    <div id = "matchModal" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Your Best Match</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+               <p> <strong>Name:</strong> <div id = "matchName"></div></p>
+
+               <img class="img-responsive" id="matchPhoto"> 
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script type = "text/javascript" src ="assets/javascript/app.js"></script>
 </body>
 </html>
 <!--
